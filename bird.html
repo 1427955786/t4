@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.box
+			{
+				width: 150px;
+				height: 100px;
+				background: url(img/bird1.png);
+				background: url(img/bird2.png);
+				background: url(img/bird3.png);
+				background: url(img/bird4.png);
+				background: url(img/bird5.png);
+				background: url(img/bird6.png);
+				background: url(img/bird7.png);
+				background: url(img/bird8.png);
+			    elevation: mybox 0.5s inherit;
+			}
+			@keyframes mybox{
+				0%{background:url(img/bird1.png) 0px 0px/100% 100% ;}
+				12.5%{background:url(img/bird2.png) 0px 0px/100% 100% ;}
+				25%{background:url(img/bird3.png) 0px 0px/100% 100% ;}
+				37.5%{background:url(img/bird4.png) 0px 0px/100% 100% ;}
+				50%{background:url(img/bird5.png) 0px 0px/100% 100% ;}
+				62.5%{background:url(img/bird6.png) 0px 0px/100% 100% ;}
+				75%{background:url(img/bird7.png) 0px 0px/100% 100% ;}
+				100%{background:url(img/bird8.png) 0px 0px/100% 100% ;}
+				
+			}
+
+			
+		</style>
+	</head>
+	<body>
+		<div class="box"></div>
+	</body>
+</html>
